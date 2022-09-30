@@ -5,11 +5,11 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-      <nav className="w-full bg-purple-500 shadow">
+      <nav className="w-full  shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="javascript:void(0)">
+              <a href="home">
                 <div className="">
                   <img className="h-8" src={Logo} alt="Hajer" />
                 </div>
@@ -22,7 +22,7 @@ function Header() {
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-black"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -35,7 +35,7 @@ function Header() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-black"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -59,17 +59,18 @@ function Header() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Home</a>
+                <li className="text-black hover:text-indigo-200">
+                  <a href="Home">Home</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Blog</a>
+
+                <li className="text-black hover:text-indigo-200">
+                  <a href="about-us">About US</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">About US</a>
+                <li className="text-black hover:text-indigo-200">
+                  <a href="products">Our Products</a>
                 </li>
-                <li className="text-white hover:text-indigo-200">
-                  <a href="javascript:void(0)">Contact US</a>
+                <li className="text-black hover:text-indigo-200">
+                  <a href="contact">Contact US</a>
                 </li>
               </ul>
             </div>

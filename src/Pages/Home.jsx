@@ -1,12 +1,19 @@
 import React from 'react'
 import Header from '../components/Header'
+import Carousel from '../components/Carousel';
+import Granite from '../components/Granite';
+import Marble from '../components/Marble';
+import AboutUs from '../components/AboutUs';
 
 function Home() {
   return (
       <>
           <Header />
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod earum nihil explicabo, laudantium laborum distinctio tempora quis et! Porro cumque accusantium inventore, obcaecati repellendus laboriosam fugit! Tempora illo sapiente placeat?
-      </>
+      <Carousel />
+      <Granite />
+      <Marble />
+      {/* <AboutUs /> */}
+            </>
   )
 }
 
