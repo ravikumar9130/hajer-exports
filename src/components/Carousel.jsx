@@ -27,9 +27,7 @@ export default function Carousel(){
           <div className="keen-slider__slide number-slide1"><img className="w-full h-full" src={bg1} alt="" /></div>
           <div className="keen-slider__slide number-slide2"><img className="w-full h-full" src={bg2} alt="" /></div>
           <div className="keen-slider__slide number-slide3"><img className="w-full h-full" src={bg3} alt="" /></div>
-          {/* <div className="keen-slider__slide number-slide4">4</div>
-          <div className="keen-slider__slide number-slide5">5</div>
-          <div className="keen-slider__slide number-slide6">6</div> */}
+         
         </div>
         {loaded && instanceRef.current && (
           <>
@@ -82,7 +80,7 @@ function Arrow(props) {
   return (
     <svg
       onClick={props.onClick}
-      className={`arrow ${
+      className={`arrow  ${
         props.left ? "arrow--left" : "arrow--right"
       } ${disabeld}`}
       xmlns="http://www.w3.org/2000/svg"
