@@ -16,7 +16,7 @@ export default function Product() {
   }, []);
   const updateDimensions = () => {
     const width = window.innerWidth;
-    let per = width > 1280 ? 6 : width > 1024 ? 5 : width > 768 ? 3 : 2;
+    let per = width > 1280 ? 6 : width > 1024 ? 5 : width > 768 ? 2 : 1;
     console.log(per);
     setWindowWidth(per);
   };
