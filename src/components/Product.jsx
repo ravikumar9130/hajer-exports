@@ -39,7 +39,7 @@ export default function Product() {
 
   return (
     <>
-          <div className="navigation-wrapper bg-blue pt-8 pb-16">
+          <div className="navigation-wrapper bg-blue pt-8 pb-8 md:pb-16">
               <div className="text-center text-primary  pb-6 text-4xl">Products</div>
         <div ref={sliderRef} className="keen-slider  ">
           {products.map((data, i) => (
