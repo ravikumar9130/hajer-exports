@@ -18,7 +18,7 @@ export default function AboutUs() {
           design, and strive to satisfy the most discriminating tastes. We are
           dedicated to offering unparalleled quality and service to designers
           and architects.</div>
-          <div className="py-2 my-4 w-[180px] mx-auto text-center px-3 rounded-lg bg-primary text-white font-bold hover:bg-black hover:text-white">Read More</div>
+          <div className="py-2 cursor-pointer my-4 w-[180px] mx-auto text-center px-3 rounded-lg bg-primary text-white font-bold hover:bg-indigo-500 hover:text-white">Read More</div>
         </div>
               </div>
           
