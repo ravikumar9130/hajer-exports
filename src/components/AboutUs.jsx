@@ -2,7 +2,8 @@ import about from "../assets/aboutUs.webp";
 
 export default function AboutUs() {
   return (
-    <>
+      <>
+          <div className="bg-blue">
       <div className="flex gap-4 flex-col justify-between items-center w-[90%] mx-auto md:flex-row-reverse pb-8 pt-12">
         <img className="rounded-lg mx-8 w-full md:w-2/5" src={about} alt="about us" />
 
@@ -19,7 +20,7 @@ export default function AboutUs() {
           and architects.</div>
          
         </div>
-      </div>
+        </div></div>
     </>
   );
 }
