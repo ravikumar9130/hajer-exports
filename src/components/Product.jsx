@@ -16,7 +16,7 @@ export default function Product() {
   }, []);
   const updateDimensions = () => {
     const width = window.innerWidth;
-    let per = width > 1280 ? 6 : width > 1024 ? 5 : width > 768 ? 2 : 1;
+    let per = width > 1280 ? 6 : width > 1024 ? 5 : width > 768 ? 3 : 1;
     console.log(per);
     setWindowWidth(per);
   };
@@ -50,7 +50,7 @@ export default function Product() {
                     <img
                       src={data.url}
                       alt={data.tittle}
-                      className=" w-[90%] h-[150px] lg:h-[100px] lg:px-4 lg:w-[250px] mx-auto mt-4 md:h-[180px] rounded"
+                      className=" w-[90%] h-[200px] lg:h-[100px] lg:px-4 lg:w-[250px] mx-auto mt-4 md:h-[180px] rounded"
                     />
                   </div>
                   <div className="my-4">
@@ -59,7 +59,7 @@ export default function Product() {
                         {data.tittle}
                       </div>
                     </div>
-                    <div className="py-1 mt-2 px-3 mx-4 text-center text-xs font-bold rounded-lg bg-primary text-white">
+                    <div className="py-2 mt-2 px-3 mx-4 text-center text-sm font-bold rounded-lg bg-primary text-white">
                       Send Enquiry
                     </div>
                   </div>
