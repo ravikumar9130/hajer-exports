@@ -39,7 +39,7 @@ export default function Product() {
 
   return (
     <>
-          <div className="navigation-wrapper bg-blue py-6">
+          <div className="navigation-wrapper bg-blue pt-8 pb-16">
               <div className="text-center text-primary  pb-6 text-4xl">Products</div>
         <div ref={sliderRef} className="keen-slider  ">
           {products.map((data, i) => (
@@ -55,7 +55,7 @@ export default function Product() {
                   </div>
                   <div className="my-4">
                     <div className="flex items-center justify-between w-full min-w-0 ">
-                      <div className="mx-4 font-bold text-lg cursor-pointer hover:text-gray-900 ">
+                      <div className="mx-4  text-lg cursor-pointer hover:text-gray-900 ">
                         {data.tittle}
                       </div>
                     </div>

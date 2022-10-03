@@ -14,7 +14,7 @@ function Home() {
       <Granite />
       <Marble />
       <Product />
-      {/* <AboutUs /> */}
+      <AboutUs />
             </>
   )
 }
