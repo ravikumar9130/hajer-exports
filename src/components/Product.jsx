@@ -99,7 +99,7 @@ function Arrow(props) {
   return (
     <svg
       onClick={props.onClick}
-      className={`arrow  ${
+      className={`arrow border opacity-60  fill-black bg-white rounded-full p-1 m-3  ${
         props.left ? "arrow--left" : "arrow--right"
       } ${disabeld}`}
       xmlns="http://www.w3.org/2000/svg"
