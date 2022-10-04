@@ -5,6 +5,7 @@ import Granite from '../components/Granite';
 import Marble from '../components/Marble';
 import Product from '../components/Product';
 import AboutUs from '../components/AboutUs';
+import ContactUs from '../components/ContactUs';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Marble />
       <Product />
       <AboutUs />
+      <ContactUs />
             </>
   )
 }
