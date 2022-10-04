@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel';
 import Granite from '../components/Granite';
@@ -6,6 +5,7 @@ import Marble from '../components/Marble';
 import Product from '../components/Product';
 import AboutUs from '../components/AboutUs';
 import ContactUs from '../components/ContactUs';
+import { Footer } from '../components/Footer';
 
 function Home() {
   return (
@@ -17,6 +17,7 @@ function Home() {
       <Product />
       <AboutUs />
       <ContactUs />
+      <Footer />
             </>
   )
 }

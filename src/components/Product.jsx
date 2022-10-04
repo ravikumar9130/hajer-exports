@@ -39,8 +39,9 @@ export default function Product() {
 
   return (
     <>
-          <div className="navigation-wrapper bg-blue pt-8 pb-8 md:pb-16">
-              <div className="text-center text-primary  pb-6 text-4xl">Products</div>
+      <div className="navigation-wrapper bg-blue pt-8 pb-8 md:pb-16">
+      <div className="w-[90%] mx-auto">
+              <div className="text-center  text-primary  pb-6 text-4xl">Products</div>
         <div ref={sliderRef} className="keen-slider  ">
           {products.map((data, i) => (
             <div key={i} className="keen-slider__slide ">
@@ -55,7 +56,7 @@ export default function Product() {
                   </div>
                   <div className="my-4">
                     <div className="flex items-center justify-between w-full min-w-0 ">
-                      <div className="mx-4  text-lg cursor-pointer hover:text-gray-900 ">
+                      <div className="mx-4 text-lg md:text-md cursor-pointer hover:text-gray-900 ">
                         {data.tittle}
                       </div>
                     </div>
@@ -67,7 +68,8 @@ export default function Product() {
               </div>
             </div>
           ))}
-        </div>
+          </div>
+          </div>
         {loaded && instanceRef.current && (
           <>
             <Arrow
@@ -86,7 +88,8 @@ export default function Product() {
                 currentSlide ===
                 instanceRef.current.track.details.slides.length - 1
               }
-            />
+              />
+             
           </>
         )}
       </div>
@@ -114,33 +117,3 @@ function Arrow(props) {
     </svg>
   );
 }
-
-// <div className="grid md:hidden grid-cols-1 gap-4 bg-blue py-8 lg:grid-cols-6 sm:grid-cols-2 ">
-// {products.map((data,i) => (
-//      <div key={i} className="keen-slider__slide number-slide1">
-//        <div className="w-full px-4 lg:px-0">
-//          <div className="p-3 bg-white text-black rounded shadow-md">
-//            <div className="">
-//              <div className="relative w-full mb-3 h-62 lg:mb-0">
-//                <img
-//                  src={data.url}
-//                  alt="Just a flower"
-//                  className="object-fill w-full h-full rounded"
-//                />
-//              </div>
-//              <div className="flex-auto p-2 justify-evenly">
-//                <div className="flex flex-wrap ">
-//                  <div className="flex items-center justify-between w-full min-w-0 ">
-//                    <div className="mr-auto text-lg cursor-pointer hover:text-gray-900 ">
-//                   {data.tittle}
-//                    </div>
-//                  </div>
-//                </div>
-
-//              </div>
-//            </div>
-//          </div>
-//        </div>
-//      </div>
-//    ))}
-// </div>

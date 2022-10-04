@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
       <>
           <div className="bg-blue pb-8 pt-12">
-      <div className="flex gap-4 flex-col justify-between items-center w-[90%] mx-auto md:flex-row-reverse ">
+      <div className="flex gap-4 flex-col justify-between items-center w-[90%] md:w-[80%]  lg:w-[90%] mx-auto md:flex-row-reverse ">
         <img className="rounded-lg mx-8 w-full md:w-2/5" src={about} alt="about us" />
 
         <div className="mt-4 mx-auto">
