@@ -62,7 +62,7 @@ function ContactUs() {
                    <div className="w-full">
                       <h4 className="font-bold text-dark text-xl mb-1">Our Location</h4>
                       <p className="text-base text-body-color">
-                         99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+                         99 S.t address demo chennai. India
                       </p>
                    </div>
                 </div>
@@ -103,7 +103,7 @@ function ContactUs() {
                    </div>
                    <div className="w-full">
                       <h4 className="font-bold text-dark text-xl mb-1">Phone Number</h4>
-                      <p className="text-base text-body-color">(+62)81 414 257 9980</p>
+                      <p className="text-base text-body-color">(+91)81 414 57 980</p>
                    </div>
                 </div>
                 <div className="flex mb-8 max-w-[370px] w-full">
@@ -139,7 +139,7 @@ function ContactUs() {
                       <h4 className="font-bold text-dark text-xl mb-1">
                          Email Address
                       </h4>
-                      <p className="text-base text-body-color">info@yourdomain.com</p>
+                      <p className="text-base text-body-color">hajerexports@yourdomain.com</p>
                    </div>
                 </div>
              </div>
@@ -247,7 +247,7 @@ function ContactUs() {
                             fillRule="evenodd"
                             clipRule="evenodd"
                             d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
-                            fill="#3056D3"
+                            fill="#6461C1"
                             />
                       </svg>
                    </span>
